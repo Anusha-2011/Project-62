@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <ul class="menu">
+        <li class="links"><a href="#home">Home</a></li>
+        <li class="links"><a href="#grid">Grid</a></li>
+        <li class="links"><a href="#slides">Slides</a></li>
+    </ul>
+    <div class="container">
+        <section id="home">
+            <div class="page-header">
+                <h2 class="text-capitalize"></h2>
+                <img id="img" src="https://acegif.com/wp-content/gif/2020-flowers-17.gif" class="img-responsive">
+            </div>
+        </section>
+        <section id="grid">
+            <h2> Grid Gallery </h2>
+            <div class="row">
+                <img class="img2" src="Flower2.gif">
+                <img class="img2" src="Flower.gif">
+                <img class="img2" src="Flower3.gif">
+                <img class="img2" src="giphy.gif">
+
+            </div>
+        </section>
+        <br>
+        <br>
+        <section id="slides">
+            <h2>Sliding Gallery</h2>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img class="img-responseive" src="Flower.gif" alt="My" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Rose</h3>
+                        </div>
+
+                        <img class="img-responseive" src="Flower2.gif" alt="Name" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Rainbow Rose</h3>
+                        </div>
+
+                        <img class="img-responseive" src="Flower3.gif" alt="Is" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Flower with Butterfly</h3>
+                        </div>
+
+                        <img class="img-responseive" src="giphy.gif" alt="Anusha" style="width:100%;">
+                        <div class="carousel-caption">
+                            <h3>Flower</h3>
+                        </div>
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left">
+
+                    </span>
+                    <span class="sr-only">
+                        previous
+                    </span>
+                </a>
+
+                <a class="right carousel-control" href="#myCarousel" data-slide="nex">
+                    <span class="glyphicon glyphicon-chevron-right">
+
+                    </span>
+                    <span class="sr-only">
+                        Next
+                    </span>
+                </a>
+            </div>
+        </section>
+    </div>
+</body></html>
+
+
+
+
+
+
+
+
+
+
+
